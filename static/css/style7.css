@@ -1,0 +1,128 @@
+
+#home {color:cornsilk;
+    margin-right:-600px;
+    top:1px;
+    right: -300px;
+    font-size: 20px;
+    display:inline;
+    text-decoration:none ;
+}
+#login{color:cornsilk;
+   margin-right:-710px;
+   top:1px;
+   right: -700px;
+   font-size: 20px;
+   display:inline;
+   text-decoration:none ;
+
+}
+#features{color:cornsilk;
+   margin-right:-670px;
+   top:1px;
+   right: -300px;
+   font-size: 20px;
+   display:inline;
+   text-decoration:none ;
+
+}
+#create{color:cornsilk;
+   margin-right:-650px;
+   top:1px;
+   right: -300px;
+   font-size: 20px;
+   display:inline;
+   text-decoration:none ;
+
+}
+#button{color:cornsilk;
+   margin-right:-700px;
+   top:1px;
+   right: -300px;
+   font-size: 20px;
+   display:inline;
+   background-color: #5d044e;
+   border-radius: 8px;
+   text-decoration: none;
+   border-width: 2px;
+   padding:10px;
+   border-color: antiquewhite;
+   border-style:groove ;
+
+
+}
+
+body {
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+  background-image: url("https://itbrief.com.au/uploads/story/2022/02/10/GettyImages-1318030894.webp");
+  background-size: cover;
+
+
+}
+
+
+.firsttxt {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-evenly;
+   align-items:center;
+   height: 200px;
+   color:rgb(4, 172, 4);
+   position: relative;
+  
+}
+
+.firsttxt h1{
+  
+   font-size: 50px;
+}
+h1 {
+   top: 1px;
+   right: 512px;
+   display: flex;
+   position: relative;
+   margin-right: 200px;
+}
+p{margin:0px;
+   font-size:  40px;
+   right: 600px;
+   color: rgb(4, 239, 239);
+   padding: 50px;
+   top:0px;
+}
+p1{color:bisque;
+   font-size: 30px;
+font-family: cursive;
+padding:0px 0px 0px 70px;
+
+}
+p2{color:rgb(242, 136, 6);
+   font-size: 30px;
+font-family: cursive;
+padding:0px 0px 0px 134px;
+
+}
+
+.btn {
+   
+   padding: 21px 30px;
+   color: rgb(255, 255, 255);
+   background-color: #5d044e;
+   border-radius: 10px;
+   font-size: 24px;
+   display: flex;
+   position: relative;
+   top: 483px;
+   right: 416px;
+   text-decoration: none;
+   border-width: 2px;
+
+   border-style: groove;
+}
+
+.outer-box{color: #5d044e;
+
+
+
+}

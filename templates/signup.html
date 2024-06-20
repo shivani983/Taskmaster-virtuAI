@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style2.css')}}">
+</head>
+<body>
+        <div class="inner-box">
+            <header class="signup-header">
+                <h1>Signup</h1>
+                
+            </header>
+            <main class="signup-body">
+                <form action="#">
+                    <p>
+                        <label for="firstname">First Name</label>
+                        <input type="text" id="firstname" placeholder="" required>
+                    </p>
+                    <p>
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname" placeholder="" required>
+                    </p>
+                    <p>
+                        <label for="email"> Email</label>
+                        <input type="email" id="email" placeholder="" required>
+                    </p>
+                    <p>
+                        <label for="password"> Password</label>
+                        <input type="password" id="password" placeholder="at least 8 characters" required>
+                    </p>
+                    <p>
+                        <input type="submit" id="submit" href="{{url_for('homepage')}}" value="Create Account">
+                    </p>
+                </form>
+            </main>
+
+            <footer class="signup-footer">
+                <p>Already have an Account? <a href="{{url_for('login')}}">Login</a> </p>
+            </footer>
+
+        </div>
+    
+</body>
+</html>

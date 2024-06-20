@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgotpass</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style6.css')}}">
+</head>
+
+<body>
+    <div class=" main-page">
+         <div class="login-box">
+            
+                <h2>Login Form</h2>
+            
+             
+            <form action="#">
+                <div class="input-box">
+                  <label for="username">Username</label><br>
+                  <input type="text" placeholder="" required>
+                </div>
+                <div class="input-box">
+                    <label for="password"> New password</label><br>
+                    <input type="password" placeholder="" required>
+                </div>
+                <div class="input-box">
+                    <label for="password">Confirm password</label><br>
+                    <input type="password" placeholder="" required>
+                </div>
+                <div class="input-box">
+                  <button type="submit">login  </button>
+                 
+
+                </div>
+                <div class="rememberme">
+                    <P>Don't have an account?<a  href="{{url_for('signup')}}" > Create account</a>
+                    </P>
+                
+                <div class="rememberme">
+                  <a id="button" href="{{url_for('cancel')}}" >Cancel</a>
+                  
+                </div>
+                
+
+                
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                 <span></span>
+                 </a>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

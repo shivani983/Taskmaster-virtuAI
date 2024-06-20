@@ -1,0 +1,88 @@
+body{
+
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(236, 194, 6, 0.847);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:30px;
+    min-height: 100vh;
+    background-image: url("loginbackground1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+ .main-page h2{ text-align: center;
+
+
+
+
+} 
+.login-box{
+background-color: rgb(0, 0, 0);
+font-size:  30px;
+width: 400px;
+height: 500px;
+text-align: left;
+border-radius: 15px;
+
+
+
+
+}
+.input-box{font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-left: 0px;
+    padding:10px;
+    
+
+
+}
+.input-box input{ background-color:antiquewhite;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: 5px;
+    color: darkgoldenrod;
+    
+
+
+
+}
+.input-box button{background-color:seagreen;
+    margin-left: 120px;
+    padding:4px;
+    border-radius: 10px;
+    font-size: 25px;
+
+    
+
+
+}
+.rememberme{font-size: 15px;
+    margin-left: 140px;
+    align-items: center;
+    
+    
+
+
+}
+#button {border-radius: 10px;
+    background-color: goldenrod;
+    margin-left: -257px;
+    padding:10px;
+    margin-top: -200px;
+    color: rgb(3, 3, 113);
+
+    
+    
+    
+}
+.rememberme a{
+    text-decoration: none;
+    align-items:  right;
+   
+}
+
+
+
+
+

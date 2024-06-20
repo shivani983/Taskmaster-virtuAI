@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style3.css')}}">
+</head>
+
+<body>
+    <div class=" main-page">
+         <div class="login-box">
+            
+                <h2>Login Form</h2>
+            
+             
+            <form method="POST" action="{{url_for('login')}}">
+                <div class="input-box">
+                  <label for="username">Username</label><br>
+                  <input type="text" placeholder="" required>
+                </div>
+                <div class="input-box">
+                    <label for="password">password</label><br>
+                    <input type="password" placeholder="" required>
+                </div>
+                <div class="input-box">
+                  <button type="submit" href="{{url_for('homepage')}}">login  </button>
+                 
+
+                </div>
+                
+                <div class="cancelbttn">
+                  <a id="button" href="{{url_for('cancel')}}">Cancel</a>
+                  <a id="cancel" href="{{url_for('forgotpass')}}">Forgot Password?</a>
+                </div>
+
+                
+                  
+                 </a>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
